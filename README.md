@@ -1,4 +1,4 @@
-#Improved Alarm Interface
+Improved Alarm Interface
 Explanation
 
 Click Start to begin timing Perform your interface test (clicks are auto-tracked) Click Stop when done View metrics in console and on screen Click Reset to start over
@@ -7,7 +7,7 @@ Test Case
 Task: Set an alarm for 10:24 AM
 Old interface: 4 clicks, unclear confirmation
 New interface: 1 click, instant feedback + notification
-Metric of success: reduce clicks from 4 → 1
+Metric of success: reduce clicks from 4 to 1
 
 Techology Used
 HTML5
