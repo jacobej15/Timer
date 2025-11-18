@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm</title>
+    <link rel="stylesheet" href="timer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⏱️</text></svg>">
+</head>
+<body>
+      <nav class="navbar">
+        <div class="nav-brand">Better Alarm UI</div>
+        <ul class="nav-links">
+             <li><a href="index.html">Alarm</a></li>
+            <li><a href="before.html">Before</a></li>
+            <li><a href="after.html">After</a></li>
+            <li><a href="https://github.com/jacobej15/Timer.git" target="_blank">View Source</a></li>
+            <li><a href="https://github.com/jacobej15" target="_blank">GitHub Profile</a></li>
+        </ul>
+    </nav>
+
+     <div class="timer-container">
+        <h1>Digital Alarm </h1>
+        <p class="subtitle">Set a time and the alarm will ring.</p>
+
+        <div class="metrics">
+            <div class="metric-box">
+                <div class="metric-label">Current Time</div>
+                <div class="metric-value" id="currentTime">00:00:00</div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-label">Alarm Set For</div>
+                <div class="metric-value" id="alarmTime">--:--</div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <input type="time" id="alarmInput" class="alarm-input">
+            <button class="btn-start" id="setAlarmBtn">Set Alarm</button>
+            <button class="btn-reset" id="clearAlarmBtn">Clear Alarm</button>
+        </div>
+
+        <div id="status" class="status" style="display: none;"></div>
+    </div>
+
+    <script src="timer.js"></script>
+    <footer >
+        <p>© 2025 Jacobe Johnson</p>
+        <p>
+          <a href="https://github.com/jacobej15/Timer.git" >GitHub Repository</a> |
+          <a href="https://jigsaw.w3.org/css-validator/" >CSS Validator</a> |
+          <a href="https://validator.w3.org/" >HTML Validator</a>
+        </p>
+      </footer>
+</body>
+</html>
