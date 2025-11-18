@@ -46,7 +46,7 @@ setInterval(() => {
 
     // alarm check
     if (alarmActive && alarmTime === `${hours}:${mins}` && secs === "00") {
-        statusBox.textContent = "⏰ ALARM RINGING!";
+        statusBox.textContent = "ALARM RINGING!";
         statusBox.className = "status running";
         statusBox.style.display = "block";
 
