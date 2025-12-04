@@ -1,0 +1,66 @@
+{
+  "achievements": [
+    {
+      "id": "alarm-ui-redesign",
+      "title": "Better Alarm UI – Redesigned Digital Alarm Clock",
+      "type": "Featured Project & UX Achievement",
+      "dateCompleted": "2025-03-15",
+      "liveDemo": "https://jacobej15.github.io/Timer/",
+      "sourceCode": "https://github.com/jacobej15/Timer",
+      "description": "Complete redesign of a traditional alarm-clock interface that reduced user steps from 4–7 clicks down to just 1 click while adding real-time feedback, browser notifications, and an emergency clear button.",
+      "impact": [
+        "Reduced cognitive load and interaction cost by over 75%",
+        "Implemented Web Notifications API with permission handling",
+        "Added visible status banner and audio feedback",
+        "Fully responsive design with dark-mode aesthetic"
+      ],
+      "technologies": [
+        "HTML5",
+        "CSS3 (Flexbox + Grid)",
+        "Vanilla JavaScript",
+        "Web Notifications API",
+        "Mobile-first responsive design",
+        "Accessibility-friendly contrast & focus states"
+      ],
+      "keyFeatures": [
+        "One-click alarm setting using native <input type=\"time\">",
+        "Live digital clock with second precision",
+        "Audio alarm + browser push notification on trigger",
+        "Clear visual states (running / stopped / cleared)",
+        "Before & After comparison pages documenting UX improvements"
+      ],
+      "metrics": {
+        "stepsReduced": "From 4–7 → 1",
+        "linesOfCode": "~280 (HTML + CSS + JS)",
+        "accessibilityScore": "95+ (WAVE & Lighthouse)",
+        "performanceScore": "98 (Lighthouse mobile)"
+      },
+      "tags": [
+        "UX/UI Redesign",
+        "Front-End Project",
+        "JavaScript",
+        "Achievement",
+        "Portfolio Piece",
+        "Open Source"
+      ],
+      "isFeatured": true,
+      "thumbnail": "https://raw.githubusercontent.com/jacobej15/Timer/main/screenshot.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/jacobej15/Timer/main/screenshot-desktop.png",
+        "https://raw.githubusercontent.com/jacobej15/Timer/main/screenshot-mobile.png"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Better Alarm UI",
+      "shortDescription": "Minimal, high-conversion alarm clock with one-click setting",
+      "role": "Full-Stack Designer & Developer",
+      "year": 2025,
+      "link": "https://jacobej15.github.io/Timer/",
+      "github": "https://github.com/jacobej15/Timer",
+      "featured": true
+    }
+  ]
+}

@@ -93,6 +93,10 @@ clearAlarmBtn.addEventListener("click", () => {
     statusBox.style.display = "block";
 
     showNotification("Alarm has been cleared.");
+    
+    fetch('data/projects.json')
+  .then(res => res.json())
+  .then(data => console.log(data.achievements[0]));
 });
 
 // export default TimerModule;
